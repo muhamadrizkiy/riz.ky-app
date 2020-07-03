@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.html {
+
+
+  font-family: -apple-system, BlinkMacSystemFont, Roboto ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submit-form {
+  max-width: 300px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submit-form-signup {
+  max-width: 500px;
+  margin: auto;
+}
+
+.margin{
+  margin-top: 50px;
+}
+
+.margin-top{
+  margin-top: 250px;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.img-home {
+  width: 600px;
+  margin-right: -300px;
+}
+
+.register-span{
+  color: #2a5bd7
+}
+
+.login-header{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-shortlink {
+  background: #0b1736;
+  width: 1100px;
+  border-radius: 8px;
+  outline: none !important;
+  margin-left: -400px;
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.input-short {
+  height: 50px;
+  width: 1050px;
+}
+
+.input-short-ok {
+
+  height: 50px;
+  width: 800px;
+
+}
+
+.btn-home-shorten {
+  height: 50px;
+  margin-left: 300px;
+  width: 200px;
+  background-color: #2a5bd7;
+  outline: none !important;
+  border: none;
+
+
+}
+
+
+.login {
+  margin-left: 800px;
+}
+
+.btn-get-started {
+
+  height: 50px;
+  margin-top: 150px;
+  margin-left: -300px;
+  width: 200px;
+  background-color: #2a5bd7;
+  outline: none !important;
+  border: none;
+  
+}
+
+.label-home {
+  width: 100%;
+  font-size: 40px;
+  margin-left: -400px;
+  font-weight: bold;
+}
+
+.short-link-padding {
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+
+.fixed-center {
+  padding-top: 20px;
+}
+
+.table {
+  margin-top: 10px;
+}
+
+.error {
+  width: 1100px;
+  margin-left: -400px;
+}
+
+
+.nav-login-btn {
+  background: #2a5bd7;
+  border-radius: 8px;
+  outline: none !important;
   color: white;
+  border: none;
+  padding: 5px 20px 5px 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-right {
+  text-align: right;
+  color: white;
 }
